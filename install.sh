@@ -88,10 +88,6 @@ echo "****************** Downloading PWCNet model ******************"
 gdown https://drive.google.com/uc\?id\=1s11Ud1UMipk2AbZZAypLPRpnXOS9Y1KO -O pretrained_networks/pwcnet-network-default.pth
 
 echo ""
-echo "****************** Downloading DBSR synthetic model ******************"
-gdown https://drive.google.com/uc\?id\=1bdtz_gr_m9MnypVqDigH6H1xoae82lwY -O pretrained_networks/dbsr_synthetic_default.pth
-
-echo ""
 echo "****************** Downloading DBSR burstsr model ******************"
 gdown https://drive.google.com/uc\?id\=1GyfJzqBx9st9Qdvy2fRizWvxCbNOerFe -O pretrained_networks/dbsr_burstsr_default.pth
 
